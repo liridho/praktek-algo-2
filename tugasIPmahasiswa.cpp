@@ -9,7 +9,7 @@
  int main() 
  { 
      float ip[100], max=0, min=4, sum_ip=0; 
- 	int lulus=0, tdk_lulus=0, error_kebawah=0, error_keatas=0; 
+ 	int x=0, y=0, error_kebawah=0, error_keatas=0; 
  	int i=1, pembagi; 
  	 
  	cout<<"--------DATA IP MAHASISWA-------"<<endl<<endl; 
@@ -23,10 +23,10 @@
  		 
  		if(ip[i]>=0 && ip[i]<=4){ 
  			if(ip[i]>=2.75){ 
- 				lulus++;	 
+ 				x++;	 
 			} 
  			else if(ip[i]<2.75){ 
- 				tdk_lulus++;	 
+ 				y++;	 
  			} 
  			 
  			if (ip[i] > max){ max = ip[i]; } 
@@ -63,8 +63,8 @@
      if(i!=1){ //cek jumlah i 
  		cout<<"+--------------------LAPORAN DATA-------------------+"<<endl<<endl; 
  		cout<<"| Jumlah Mahasiswa                       |   "<<jml_m<<"      |"<<endl;  
- 		cout<<"| Jumlah Mahasiswa Yang Lulus            |   "<<lulus<<"      |"<<endl;  
- 		cout<<"| Jumlah Mahasiswa Yang Tidak Lulus      |   "<<tdk_lulus<<"      |"<<endl;  
+ 		cout<<"| Jumlah Mahasiswa Yang Lulus            |   "<<x<<"      |"<<endl;  
+ 		cout<<"| Jumlah Mahasiswa Yang Tidak Lulus      |   "<<y<<"      |"<<endl;  
  		cout<<"| Nilai Tertinggi                        |   "<<max<<"      |"<<endl;  
  		cout<<"| Nilai Terendah                         |   "<<min<<"      |"<<endl; 
  		cout<<"| Nilai Rata-Rata                        |   "<<rata<<"      |"<<endl;  
