@@ -1,12 +1,10 @@
-
+/* LIRIDHO 16.111.212 TIF RM 16C */
 
 #include <iostream> 
  
  
  using namespace std; 
 
- 
- 
  
  int main() 
  { 
